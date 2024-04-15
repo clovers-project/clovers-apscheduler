@@ -26,13 +26,9 @@ async def _():
 
 ## 配置项
 
-`apscheduler` 的相关配置。
+`apscheduler` 的相关配置
 
-参考
-
-[配置 scheduler](https://apscheduler.readthedocs.io/en/latest/userguide.html#scheduler-config)
-
-[配置参数](https://apscheduler.readthedocs.io/en/latest/modules/schedulers/base.html#apscheduler.schedulers.base.BaseScheduler)
+参考 [配置 scheduler](https://apscheduler.readthedocs.io/en/latest/userguide.html#scheduler-config)，[配置参数](https://apscheduler.readthedocs.io/en/latest/modules/schedulers/base.html#apscheduler.schedulers.base.BaseScheduler)
 
 配置需要包含 `prefix: apscheduler.`
 
