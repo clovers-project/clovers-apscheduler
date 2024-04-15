@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clovers-apscheduler"
+version = "0.1.0"
+description = ""
+authors = ["KarisAya <1048827424@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+clovers = "^0.1.0"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
