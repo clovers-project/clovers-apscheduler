@@ -30,17 +30,21 @@ zookeeper = ["kazoo"]
 
 [[package]]
 name = "clovers"
-version = "0.1.0"
+version = "0.1.2"
 description = ""
 optional = false
-python-versions = "<4.0,>=3.12"
+python-versions = "<4.0,>=3.10"
 files = [
-    {file = "clovers-0.1.0-py3-none-any.whl", hash = "sha256:75c465857f287f30f1aed9d83f6bd28affd8c7d509a21b325eda3fc4c608fc26"},
-    {file = "clovers-0.1.0.tar.gz", hash = "sha256:54387b743600e82287d7a423bfb9b19c0e6bd507a51d340c836602671fa6053d"},
+    {file = "clovers-0.1.2-py3-none-any.whl", hash = "sha256:87ee3371e8656a3c7bc87b75ef0100c53f48348582cd9a93e3b20de2a0d7fe06"},
+    {file = "clovers-0.1.2.tar.gz", hash = "sha256:29311cbb16a529e8b40ed52b3119b82f5be1c2e72b27bb373cdbf6a319031e2c"},
 ]
 
 [package.dependencies]
 toml = ">=0.10.2,<0.11.0"
+
+[package.extras]
+linecard = ["fonttools (>=4.51.0,<5.0.0)", "matplotlib (>=3.8.4,<4.0.0)", "pillow (>=10.3.0,<11.0.0)"]
+tools = ["httpx (>=0.27.0,<0.28.0)", "numpy (>=1.26.4,<2.0.0)"]
 
 [[package]]
 name = "pytz"
@@ -105,5 +109,5 @@ devenv = ["check-manifest", "pytest (>=4.3)", "pytest-cov", "pytest-mock (>=3.3)
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.12"
-content-hash = "d218a6bfd7fa664dff76bda232dc0917872d6243ee705ff1a85f79e50a4bf807"
+python-versions = "^3.10"
+content-hash = "21d2f8ac582a28b2ec11d6fdbe12215cd77af18055048107e34a3c12d11b2d1c"

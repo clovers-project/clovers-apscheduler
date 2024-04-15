@@ -6,9 +6,9 @@ authors = ["KarisAya <1048827424@qq.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-clovers = "^0.1.0"
+python = "^3.10"
 apscheduler = "^3.10.4"
+clovers = "^0.1.2"
 
 
 [build-system]
