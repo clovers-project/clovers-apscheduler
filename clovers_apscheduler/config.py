@@ -2,4 +2,4 @@ from pydantic import BaseModel
 
 
 class Config(BaseModel):
-    scheduler_config = {"apscheduler.timezone": "Asia/Shanghai"}
+    scheduler_config: dict = {"apscheduler.timezone": "Asia/Shanghai"}
