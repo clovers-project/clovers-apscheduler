@@ -1,18 +1,14 @@
-# clovers_apscheduler
+<div align="center">
+
+# clovers-apscheduler
 
 _✨ clovers APScheduler 定时任务插件 ✨_
 
-<div align="center">
 <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="python">
-<a href="./LICENSE">
-  <img src="https://img.shields.io/github/license/KarisAya/clovers_apscheduler.svg" alt="license">
-</a>
-<a href="https://pypi.python.org/pypi/clovers_apscheduler">
-  <img src="https://img.shields.io/pypi/v/clovers_apscheduler.svg" alt="pypi">
-</a>
-<a href="https://pypi.python.org/pypi/clovers_apscheduler">
-  <img src="https://img.shields.io/pypi/dm/clovers_apscheduler" alt="pypi download">
-</a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/KarisAya/clovers_apscheduler.svg" alt="license"></a>
+<a href="https://pypi.python.org/pypi/clovers_apscheduler"><img src="https://img.shields.io/pypi/v/clovers_apscheduler.svg" alt="pypi">
+</a><a href="https://pypi.python.org/pypi/clovers_apscheduler"><img src="https://img.shields.io/pypi/dm/clovers_apscheduler" alt="pypi download"></a>
+
 </div>
 
 ## 使用方式
