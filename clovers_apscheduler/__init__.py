@@ -15,16 +15,14 @@ scheduler.configure(**config_data.scheduler_config)
 
 @plugin.startup
 async def _():
-    if scheduler.running:
-        return
-    scheduler.start()
+    if not scheduler.running:
+        scheduler.start()
 
 
 @plugin.shutdown
 async def _():
     if scheduler.running:
-        return
-    scheduler.shutdown()
+        scheduler.shutdown()
 
 
 __plugin__ = plugin
