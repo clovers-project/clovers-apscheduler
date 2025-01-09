@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "clovers-apscheduler"
-version = "0.1.4"
+version = "0.2.0"
 description = ""
 authors = ["KarisAya <1048827424@qq.com>"]
 readme = "README.md"
@@ -8,8 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 apscheduler = "^3.10.4"
-clovers = "^0.1.8"
-pydantic = "^2.7.0"
+clovers = "^0.3.0"
 
 
 [build-system]
