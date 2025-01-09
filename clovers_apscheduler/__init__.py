@@ -6,10 +6,8 @@ from clovers.config import config as clovers_config
 scheduler_config: dict = {"apscheduler.timezone": "Asia/Shanghai"}
 
 config_key = __package__
-config_data = clovers_config.get(config_key, scheduler_config)
-clovers_config[config_key] = config_data
-scheduler_config.update(config_data)
-
+scheduler_config.update(clovers_config.get(config_key, {}))
+clovers_config[config_key] = scheduler_config
 
 plugin = Plugin()
 scheduler = AsyncIOScheduler()
