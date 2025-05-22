@@ -2,7 +2,7 @@
 name = "clovers-apscheduler"
 version = "0.2.2"
 description = ""
-authors = [{ name = "KarisAya", email = "1048827424@qq.com" }]
+authors = [{ name = "KarisAya", email = "karisaya@foxmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12,<4.0.0"
 dependencies = ["clovers (>=0.4.3,<0.5)", "apscheduler (>=3.11.0,<4.0.0)"]
