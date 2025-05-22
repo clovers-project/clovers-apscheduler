@@ -1,17 +1,15 @@
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from clovers import Plugin
 from clovers.logger import logger
-from clovers.config import config as clovers_config
+from clovers.config import Config as CloversConfig
 
-scheduler_config: dict = {"apscheduler.timezone": "Asia/Shanghai"}
-
-config_key = __package__
-scheduler_config.update(clovers_config.get(config_key, {}))
-clovers_config[config_key] = scheduler_config
+config_data = CloversConfig.environ().setdefault("apscheduler", {})
+assert isinstance(config_data, dict)
+default_config = {"apscheduler.timezone": "Asia/Shanghai"}
+config_data.update({k: v for k, v in default_config.items() if k not in config_data})
 
 plugin = Plugin()
-scheduler = AsyncIOScheduler()
-scheduler.configure(**scheduler_config)
+scheduler = AsyncIOScheduler(config_data)
 
 
 @plugin.startup
