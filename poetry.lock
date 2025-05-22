@@ -30,14 +30,14 @@ zookeeper = ["kazoo"]
 
 [[package]]
 name = "clovers"
-version = "0.4"
+version = "0.4.5"
 description = ""
 optional = false
 python-versions = "<4.0.0,>=3.12"
 groups = ["main"]
 files = [
-    {file = "clovers-0.4-py3-none-any.whl", hash = "sha256:a3f7245c868548c01fdf7a490e9a5cbc3fd8b37886d489f6d46fa2a39b076d72"},
-    {file = "clovers-0.4.tar.gz", hash = "sha256:8d1dc1af81bdde7813fc1aedb96ed254344b7cba2cf59a97556d7abdcce79c5a"},
+    {file = "clovers-0.4.5-py3-none-any.whl", hash = "sha256:3a4533e385dba1e061f55ac028f919ea39500dda81d563ecc2e92043b5c2f616"},
+    {file = "clovers-0.4.5.tar.gz", hash = "sha256:54c4cc8848c9552b73e32aca1257294c7ac409f9fd6cd4d5715fc6d0c7d307c0"},
 ]
 
 [package.dependencies]
@@ -57,27 +57,27 @@ files = [
 
 [[package]]
 name = "tzdata"
-version = "2024.2"
+version = "2025.2"
 description = "Provider of IANA time zone data"
 optional = false
 python-versions = ">=2"
 groups = ["main"]
 markers = "platform_system == \"Windows\""
 files = [
-    {file = "tzdata-2024.2-py2.py3-none-any.whl", hash = "sha256:a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"},
-    {file = "tzdata-2024.2.tar.gz", hash = "sha256:7d85cc416e9382e69095b7bdf4afd9e3880418a2413feec7069d533d6b4e31cc"},
+    {file = "tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"},
+    {file = "tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9"},
 ]
 
 [[package]]
 name = "tzlocal"
-version = "5.2"
+version = "5.3.1"
 description = "tzinfo object for the local timezone"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "tzlocal-5.2-py3-none-any.whl", hash = "sha256:49816ef2fe65ea8ac19d19aa7a1ae0551c834303d5014c6d5a62e4cbda8047b8"},
-    {file = "tzlocal-5.2.tar.gz", hash = "sha256:8d399205578f1a9342816409cc1e46a93ebd5755e39ea2d85334bea911bf0e6e"},
+    {file = "tzlocal-5.3.1-py3-none-any.whl", hash = "sha256:eb1a66c3ef5847adf7a834f1be0800581b683b5608e74f86ecbcef8ab91bb85d"},
+    {file = "tzlocal-5.3.1.tar.gz", hash = "sha256:cceffc7edecefea1f595541dbd6e990cb1ea3d19bf01b2809f362a03dd7921fd"},
 ]
 
 [package.dependencies]
@@ -89,4 +89,4 @@ devenv = ["check-manifest", "pytest (>=4.3)", "pytest-cov", "pytest-mock (>=3.3)
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0.0"
-content-hash = "351252a192e94bde5baa6f5d2603293211dac99c917d5473f86d6ae43a889856"
+content-hash = "f335f5d26ea25da85e68e206fa6101a1945ae807427255e031e5f665b5c92c85"
